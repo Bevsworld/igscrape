@@ -390,7 +390,7 @@ try:
                 proxy = rotate_proxy()
 
         # Sleep for 10 minutes (600 seconds) after processing all usernames
-        logging.info("Sleeping for 1 minutes...")
+        logging.info("Sleeping for 1 minute...")
         time.sleep(60)
 except KeyboardInterrupt:
     logging.info("Script terminated by user.")
